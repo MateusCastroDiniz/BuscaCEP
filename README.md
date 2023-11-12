@@ -1,4 +1,4 @@
-# AjaxProj
+# BuscaCEP
 ## Primeiros passos para instalação
 
 - ### inicie o npm com o comando <u>`npm install`</u>
