@@ -53,7 +53,8 @@ function tarefasJS() {
                 "./lib/jquery.js",
                 "./lib/bootstrap/dist/js/bootstrap.js",
                 "./lib/owl/dist/owl.carousel.js",
-                "./src/assets/js/**.js"
+                "./src/assets/js/**.js",
+                "./lib/jquery.mask.js"
             ])
         .pipe(babel({
             comments: false,
@@ -96,6 +97,11 @@ exports.sass = TarefaSass
 exports.css = tarefaCss
 
 exports.js = tarefasJS
+
+exports.TranspCSS = TransporteCSS
+
+exports.TranspJS = TransporteJS
+
 
 const process = series(TarefaSass, tarefaCss, tarefasJS, tarefasHTML, TransporteCSS, TransporteJS, end)
 

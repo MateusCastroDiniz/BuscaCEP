@@ -8,6 +8,34 @@ label{
     text-wrap: nowrap;
 }
 
+.invalid{
+  background-color:rgba(255, 182, 182, 0.089);
+  border: 1px solid red;
+}
+
+.texto-alerta{
+  color: red;
+}
+
+
+option {
+  color: #000000; }
+
+.invalido {
+  border: 1px solid #ff0000; }
+
+.text-muted {
+  display: none; 
+}
+
+small.text-muted {
+  color: #f00 !important; }
+
+  .form-floating label {
+    color: black;
+    font-size: small; }  
+
+
 .wave {
     position: absolute;
     left: -100px;
